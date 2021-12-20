@@ -25,6 +25,7 @@
 
 ##### Actual Behavior
 - Map does not pan and description does not open
+- selected-marker-value event value is undefined
 
 ### Bug #3
 ##### To Reproduce:
