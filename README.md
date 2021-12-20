@@ -14,7 +14,8 @@
 - The selected map marker's description opens
 
 ##### Actual Behavior
-- The selected map marker's description opens
+- All of the map marker descriptions open
+- selected-marker-value event value is undefined
 
 ### Bug #2
 ##### To Reproduce:
@@ -25,7 +26,6 @@
 
 ##### Actual Behavior
 - Map does not pan and description does not open
-- selected-marker-value event value is undefined
 
 ### Bug #3
 ##### To Reproduce:
@@ -35,4 +35,4 @@
 - Map marker description opens in Google Maps iframe
 
 ##### Actual Behavior
-- Nothing. The map marker changes in the list view, but not in the iframe
+- The map marker changes in the list view, but not in the iframe
