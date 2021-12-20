@@ -13,17 +13,93 @@
       "componentName" : "community_layout:section",
       "id" : "c64880a9-72bd-497b-ab75-dee877eb65c3",
       "regions" : [ {
+        "id" : "e21c3078-5d5e-484d-8fb8-560a4a6cf361",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"de6a4590-1284-4463-a350-d52abc423050\",\"columns\":[{\"UUID\":\"b67a3a36-02c4-45e7-b5c1-ead94e7ec06f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"22385609-d202-4aaf-ba40-debe326a9088\",\"columnName\":\"Column 2\",\"columnKey\":\"2ae84\",\"columnWidth\":\"4\",\"seedComponents\":[]},{\"UUID\":\"8648febc-c02f-477c-8588-9a55e6fd532d\",\"columnName\":\"Column 3\",\"columnKey\":\"ac199\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "de6a4590-1284-4463-a350-d52abc423050",
+      "regions" : [ {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<div style=\"display: flex; justify-content: center; align-items: center; margin: 50px 0; flex-direction: column; text-align: center;\"><div style=\"background-image: url(assets/img/desert.svg); background-size: cover; background-position: center; height: 300px; width: 100%; max-width: 600px; min-width: 300px;\"></div><h1 class=\"slds-text-heading_medium slds-p-bottom_x-small\">Start Building Your Page</h1> <div>Drag and drop a component into the content slots.</div></div>"
+            "richTextValue" : "<p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\">Bug #1</b></p><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">To Reproduce:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Click a map marker in the Google Maps iframe (Not the list view)</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">Expected Behavior</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">The selected map marker's description opens</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">Actual Behavior</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\"><span community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">All of the map marker descriptions open</span></li><li community_builder-richtexteditor_richtexteditor=\"\">selected-marker-value event value is undefined</li></ul>"
           },
-          "componentName" : "community_builder:htmlEditor",
-          "id" : "df621c62-9161-4415-9ae4-5aa0d79096ab",
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "f26ec1dd-086d-43e8-8a0e-d8548310a5d1",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
         } ],
-        "id" : "e21c3078-5d5e-484d-8fb8-560a4a6cf361",
+        "id" : "b67a3a36-02c4-45e7-b5c1-ead94e7ec06f",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">Bug #2</b></p><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">To Reproduce:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Click a map marker in the List View (Not the iframe)</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">Expected Behavior:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Map Iframe pans to the selected map marker and opens the description</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"font-family: var(--dxp-s-body-font-family); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); color: var(--dxp-g-root-contrast);\">Actual Behavior:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Map does not pan and description does not open</li></ul>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "e27fb039-faf1-4fec-a2eb-482c6f1dfbef",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "22385609-d202-4aaf-ba40-debe326a9088",
+        "regionLabel" : "Column 2",
+        "regionName" : "2ae84",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"color: var(--dxp-g-root-contrast); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); font-family: var(--dxp-s-body-font-family);\">Bug #3</b></p><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"color: var(--dxp-g-root-contrast); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); font-family: var(--dxp-s-body-font-family);\">To Reproduce:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Set the selected-marker-value attribute of the lightning-maps component</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"color: var(--dxp-g-root-contrast); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); font-family: var(--dxp-s-body-font-family);\">Expected Behavior:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">Map marker description opens in Google Maps iframe</li></ul><p community_builder-richtexteditor_richtexteditor=\"\"><b community_builder-richtexteditor_richtexteditor=\"\" style=\"color: var(--dxp-g-root-contrast); font-size: var(--dxp-s-body-font-size,var(--dxp-g-font-size-3)); font-family: var(--dxp-s-body-font-family);\">Actual Behavior:</b></p><ul community_builder-richtexteditor_richtexteditor=\"\"><li community_builder-richtexteditor_richtexteditor=\"\">The map marker changes in the list view, but not in the iframe</li></ul>"
+          },
+          "componentName" : "community_builder:richTextEditor",
+          "id" : "681fcb4d-40f6-427c-b0b5-247d9b897031",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "8648febc-c02f-477c-8588-9a55e6fd532d",
+        "regionLabel" : "Column 3",
+        "regionName" : "ac199",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"815617d8-5db4-4527-860d-f5678f61373c\",\"columns\":[{\"UUID\":\"5b566fb2-30a4-4a7b-bdcb-1e85dc2d074e\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "815617d8-5db4-4527-860d-f5678f61373c",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:map",
+          "id" : "ad0f4d56-f194-47b1-911f-0b2a59e24846",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5b566fb2-30a4-4a7b-bdcb-1e85dc2d074e",
         "regionLabel" : "Column 1",
         "regionName" : "col1",
         "renditionMap" : { },

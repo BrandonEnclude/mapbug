@@ -24,6 +24,15 @@
         "componentName" : "community_layout:section",
         "id" : "d2619b95-f3d0-4ad5-bb5a-dea8259e9e1d",
         "regions" : [ {
+          "components" : [ {
+            "componentAttributes" : {
+              "richTextValue" : "<p style=\"text-align: center;\" community_builder-richtexteditor_richtexteditor=\"\"><b style=\"font-size: 18px;\" community_builder-richtexteditor_richtexteditor=\"\">Lightning-Map / LWR Site Bug</b></p>"
+            },
+            "componentName" : "community_builder:richTextEditor",
+            "id" : "f7ba95ed-5e29-4421-a566-b4f71ca2dcc0",
+            "renditionMap" : { },
+            "type" : "component"
+          } ],
           "id" : "e76badf2-f23f-4777-ade8-1ae95f4f558c",
           "regionLabel" : "Theme Header",
           "regionName" : "headerSection",
